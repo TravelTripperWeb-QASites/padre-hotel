@@ -7,7 +7,7 @@ layout: default
   <div class="row">
     <div class="col-md-12 sublinks">
       <ul>
-        <li ng-repeat="offering in offer.special_rates"><a ng-click="reloadPage"  ng-href="/special/[[offering.rate_plan_name | spaceDash]]/">[[offering.rate_plan_name | filterHtmlChars]]</a></li>
+        <li ng-repeat="offering in offer.special_rates"><a ng-click="reloadPage"  ng-href="/special/?[[offering.rate_plan_name | formatNameForLink]]">[[offering.rate_plan_name | filterHtmlChars]]</a></li>
 
       </ul>
     </div>
