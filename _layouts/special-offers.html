@@ -122,9 +122,9 @@ layout: default
           <div class="row discover-list-container "  rt3-rooms-browser="browser" ng-cloak>
             <h3 class="text-bold ">discover more rooms</h3>
            <data-owl-carousel id ="owl-example" class="owl-carousel" data-options="{navigation: true,  pagination: true, rewindNav : false,  navigationText:				['&#8249;','&#8250;'], items : 3, itemsMobile:[479,1], itemsTablet:[800,2], itemsDesktop:[1220,3],	 responsive : true}">
-      <div owl-carousel-item="" ng-repeat="list in :: browser.roomsv" class="item" >
+      <div owl-carousel-item="" ng-repeat="list in :: browser.roomsList" class="item" >
        <img  ng-src="[[list.photos[0].yankee_large]]" alt="[[list.name]]">
-         <a ng-href="/room/[[list.name | spaceDash]]/">[[list.name]] </a>
+         <a ng-href="/room/?[[list.name | formatNameForLink]]">[[list.name]] </a>
       </div>
 
     </data-owl-carousel>

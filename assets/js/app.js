@@ -35,10 +35,44 @@ proApp.controller('specialDetail', function($scope, $http,$filter){
       $scope.special();
 
 });
+
+proApp.controller('roomDetail', ['$scope', 'rt3Search', 'rt3Browser','$timeout','$filter', function($scope, rt3Search, rt3Browser,$timeout, $filter) {
+    window.onhashchange = function() {
+      window.location.reload();
+    }
+    $scope.reloadPage = function(){window.location.reload();}
+    $timeout(function() {
+       var roomsList = JSON.parse($("#roomList").val());
+       var roomId = window.location.search.substr(1); //$("#roomId").val();
+       var roomSizeSqm, tmpName;
+       var roomSizeSqft;
+       for(var j= 0 ; j < roomsList.length ; j++){
+         rName = $filter('formatNameForLink')(roomId);
+         tmpName = $filter('formatNameForLink')(roomsList[j].name);
+
+           if(rName == tmpName ){
+              // find room size for diff size units
+              $scope.selectedRoom = roomsList[j];
+
+              // find previous and next rooms name
+              if(j > 0){
+                 $scope.prevRoomName = roomsList[j-1].name;
+              }
+
+              if(j < roomsList.length -1){
+                 $scope.nextRoomName = roomsList[j+1].name;
+              }
+              break;
+           }
+       }
+
+    }, 1800);
+
+}])
 // add dash(-hyphen) function in url
 proApp.filter('spaceDash', function() {
    return function(input) {
-       return input.replace(/ /g, '-');
+       return input ? input.replace(/ /g, '-') : '';
    }
    });
  proApp.filter('filterHtmlChars', function(){
