@@ -43,7 +43,7 @@ layout: default
   <section class="container room-list-container" >
     <div class="rooms-list-top-margin " ng-repeat="room in browser.roomsList">
       <div ng-if="$even" class="row " id="[[room.code]]">
-        <div class="col-md-4  no-gutter"> <img ng-src="[[room.photos[0].yankee_large]]"  class="img-responsive img-width padd-l40" alt=""/> </div>
+        <div class="col-md-4  no-gutter  " style="background-image: url([[room.photos[0].yankee_large]])"> </div>
         <div class="col-md-8 no-gutter">
           <div class="rooms-description1 center-block" >
 
