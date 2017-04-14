@@ -21,7 +21,7 @@ layout: default
         <div class="col-md-12">
           {% assign eventitems = site.data._models.events | sort: 'sort_order' %}
           {% for eventitem in eventitems %}
-            {% unless eventitem.unpublish == true %}
+            {% if eventitem.unpublish != true %}
               <div  class="event-list">
                 <h5 >{{ eventitem.title }}</h5>
                 <img src={{ eventitem.banner_image.url }} class="img-width" alt="{{ eventitem.title }}"/>
