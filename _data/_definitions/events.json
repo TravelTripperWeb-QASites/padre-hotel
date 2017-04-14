@@ -3,5 +3,6 @@
   "banner_image": {"type":"image","required":true},
   "description": {"type":"richtext","required":true},
   "button_text": {"type":"richtext"},
-  "sort_order": {"type":"integer","required":true}
+  "sort_order": {"type":"integer","required":true},
+  "unpublish": {"type:":"boolean"}
 }
