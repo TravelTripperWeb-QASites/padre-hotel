@@ -39,6 +39,7 @@ ul {
 	 font-family: $Book ;
 	 font-size:14px;
 	 line-height:25px;
+	 color:$Black;
 	}
 }
 a {
@@ -69,6 +70,12 @@ h6 {
 	color: $Primary;
 	font-size: 16px;
 }
+p{
+	color:$White;
+}
 
+}
+h5{
+	color:$Secondary;
 }
 }

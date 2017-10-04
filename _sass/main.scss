@@ -13,7 +13,7 @@ body {
 }
 a, a:hover, a:active, a:visited,a:link {
     text-decoration:none;
-	color: $Primary;
+	color: $Secondary;
    
 }
 a:hover{
@@ -177,7 +177,7 @@ a:active {
     }
 }
 .brown-color {
-    color: $Secondary !important;
+    color: $Black !important;
 }
 .text-cursive {
     font-size: 54px;
@@ -200,7 +200,7 @@ a:active {
 }
 p {
     font-family: $Book ;
-    color: #8d8d8d;
+    color: $Black;
     line-height: 25px;
     font-size: 14px;
 	
