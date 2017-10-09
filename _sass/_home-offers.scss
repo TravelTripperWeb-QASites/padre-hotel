@@ -24,6 +24,9 @@
 		color: $Secondary;
 		display: block;
 		margin: 18px 0px;
+		 &.dimond-white{
+		 	color:$White;
+		 }
 		 }
 	
 		p{
@@ -86,7 +89,7 @@
 			 line-height:22PX;
 			 }
 		p{
-			color:#8d8d8d;
+			color:$Black;
 			padding:14px 27px;	
 			max-height: 120px;
     		overflow: hidden;
@@ -213,7 +216,7 @@
 			.date{
 				font-family:'Avenir LT W01_85 Heavy_1475550';
 				font-size:14px;
-				color:#8d8d8d;
+				color:#656565;
 				padding-top:8px;
 				}
 		
