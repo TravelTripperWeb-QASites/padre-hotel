@@ -22,6 +22,9 @@
     "type": "integer",
     "required": true
   },
+  "view_event_button_url": {
+    "required": false
+  },
   "unpublish": {
     "type": "boolean"
   }

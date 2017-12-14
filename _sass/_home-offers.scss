@@ -40,7 +40,11 @@
 			}
 		}
 	 .offers-list{
-		 
+		 &.loc-eve-list{
+				img{
+					height: 300px;
+				}
+			}
 		 max-width:1100px;
 		 
 		 margin:0px auto;

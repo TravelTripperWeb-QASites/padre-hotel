@@ -74,14 +74,15 @@ layout: default
   </div>
   {% assign eventitems = site.data._models.events | sort: 'sort_order' %}
         <div class="col-sm-12">
-          <div class="row discover-list-container offers-list loc-eve-list">
+          <div class="row offers-list loc-eve-list">
             <div class="events-list-loc">
             {% for eventitem in eventitems %}
             {% if eventitem.unpublish != true %}
-      <div>
+      <div class="item-padding">
        <img src="{{ eventitem.banner_image.url }}" class='img-width' "{{ eventitem.title }}"/>
        <h5>{{ eventitem.title }}</h5>
        <p>{{ eventitem.short_description }}...</p>
+       <div class='brown-button '><a href='/play/events/#Wedding'  title='View Event'>View event</a></div>
       </div>
       {% endif %}
       {% endfor %}

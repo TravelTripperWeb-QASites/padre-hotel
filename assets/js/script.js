@@ -27,15 +27,15 @@ $(window).on('load scroll resize', function () {
 $(document).ready(function() {
     $(".events-list-loc").owlCarousel({
 
-     autoPlay: 3000, //Set AutoPlay to 3 seconds
+     autoPlay: false, //Set AutoPlay to 3 seconds
      navigation: true,
      items: 3,
       itemsDesktop: [1199,3],
       itemsDesktopSmall: [979,3],
-      navigationText: [
+      /*navigationText: [
       "<i class='fa fa-angle-left' aria-hidden='true'></i>",
       "<i class='fa fa-angle-right' aria-hidden='true'></i>"
-      ],
+      ],*/
 
  });
 		$(".menu-icon-holder").click(function(){
