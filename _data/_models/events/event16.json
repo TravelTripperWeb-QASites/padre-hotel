@@ -10,5 +10,6 @@
     "description": ""
   },
   "unpublish": true,
-  "short_description": "<p>This Easter Sunday, hop into a festive day at The Padre full of brunch and photos with the Easter Bunny!</p>"
+  "short_description": "<p>This Easter Sunday, hop into a festive day at The Padre full of brunch and photos with the Easter Bunny!</p>",
+  "view_event_button_url": "easter-brunch"
 }
