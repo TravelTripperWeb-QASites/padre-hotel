@@ -243,10 +243,11 @@
 		
 		}
 	.discover-list-container {
-		&.loc-eve-list{
-			margin-top: -100px;
-			img{
-				height: 250px;
+		&.offers-list{
+			&.loc-eve-list{
+				img{
+					height: 250px;
+				}
 			}
 		}
 		margin: 10px auto;
