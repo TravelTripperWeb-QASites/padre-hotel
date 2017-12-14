@@ -10,5 +10,6 @@
   },
   "sort_order": 2,
   "unpublish": true,
-  "short_description": "<p><span style=\"color: #333333; font-family: Helvetica, arial, sans-serif; font-size: 14px;\">Because everyone should be able to enjoy great wine!&nbsp;</span><span style=\"color: #333333; font-family: Helvetica, arial, sans-serif; font-size: 14px;\">Each month, sip on a selection of deeply discounted wine from every region. Enjoy the bottle with your dinner at Belvedere or grab it to go to pair with a meal at home!</span></p>"
+  "short_description": "<p><span style=\"color: #333333; font-family: Helvetica, arial, sans-serif; font-size: 14px;\">Because everyone should be able to enjoy great wine!&nbsp;</span><span style=\"color: #333333; font-family: Helvetica, arial, sans-serif; font-size: 14px;\">Each month, sip on a selection of deeply discounted wine from every region. Enjoy the bottle with your dinner at Belvedere or grab it to go to pair with a meal at home!</span></p>",
+  "view_event_button_url": "padre-picks"
 }
