@@ -10,5 +10,6 @@
     "description": ""
   },
   "unpublish": true,
-  "short_description": "<p>Jazz up your Friday nights with live Jazz in Prospect Lounge at The Padre Hotel! Enjoy no cover all night.</p>"
+  "short_description": "<p>Jazz up your Friday nights with live Jazz in Prospect Lounge at The Padre Hotel! Enjoy no cover all night.</p>",
+  "view_event_button_url": "jazz-nights"
 }
