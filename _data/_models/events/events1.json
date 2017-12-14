@@ -5,6 +5,9 @@
   "button_text": "",
   "sort_order": 6,
   "banner_image": {
-    "url": "https://cdn.traveltripper.io/site-assets/408_410_2694/media/2017-05-10-152611/Padre-WineDown-937x400.jpg"
+    "url": "https://cdn.traveltripper.io/site-assets/408_410_2694/media/2017-05-10-152611/Padre-WineDown-937x400.jpg",
+    "alt": "Wine Down Wednesdays",
+    "caption": "",
+    "description": ""
   }
 }
