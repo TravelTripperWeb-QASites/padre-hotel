@@ -9,5 +9,6 @@
     "description": ""
   },
   "unpublish": true,
-  "short_description": "<p>Fiesta, Fiesta! Come party at the Padre&nbsp;Hotel for Cinco de Mayo! Head up the Prairie Fire rooftop from 6pm to 12am and sip on $5 Coronas, margaritas and Herradura shots!</p>"
+  "short_description": "<p>Fiesta, Fiesta! Come party at the Padre&nbsp;Hotel for Cinco de Mayo! Head up the Prairie Fire rooftop from 6pm to 12am and sip on $5 Coronas, margaritas and Herradura shots!</p>",
+  "view_event_button_url": "cinco-de-mayo"
 }
