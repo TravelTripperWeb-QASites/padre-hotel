@@ -77,11 +77,13 @@ layout: default
           <div class="row discover-list-container loc-eve-list">
             <div class="events-list-loc">
             {% for eventitem in eventitems %}
+            {% if eventitem.unpublish != true %}
       <div>
        <img src="{{ eventitem.banner_image.url }}" class='img-width' "{{ eventitem.title }}"/>
        <h5>{{ eventitem.title }}</h5>
        <p>{{ eventitem.short_description }}...</p>
       </div>
+      {% endif %}
       {% endfor %}
     </div>
           </div>
