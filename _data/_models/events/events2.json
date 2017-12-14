@@ -10,5 +10,6 @@
     "description": ""
   },
   "unpublish": true,
-  "short_description": "<p>Aloha! Ready to hula? Join us on Saturday, July 8th for a traditional luau on the Prairie Fire rooftop&nbsp;as we host music from the Hawaiian Wonder and an authentic Polynesian dance show.</p>"
+  "short_description": "<p>Aloha! Ready to hula? Join us on Saturday, July 8th for a traditional luau on the Prairie Fire rooftop&nbsp;as we host music from the Hawaiian Wonder and an authentic Polynesian dance show.</p>",
+  "view_event_button_url": "prairie-fire-luau"
 }
