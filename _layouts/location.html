@@ -81,7 +81,7 @@ layout: default
       <div class="item-padding">
        <img src="{{ eventitem.banner_image.url }}" class="img-width" "{{ eventitem.title }}"/>
        <h5>{{ eventitem.title }}</h5>
-       <p>{{ eventitem.short_description }}...</p>
+       {{ eventitem.short_description | truncatewords: 20 '...' }}
        <div class='brown-button '><a href="/play/events/#{{ eventitem.view_event_button_url }}"  title='View Event'>View event</a></div>
       </div>
       {% endif %}

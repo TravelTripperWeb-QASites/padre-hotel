@@ -32,11 +32,7 @@ $(document).ready(function() {
      items: 3,
       itemsDesktop: [1199,3],
       itemsDesktopSmall: [979,3],
-      /*navigationText: [
-      "<i class='fa fa-angle-left' aria-hidden='true'></i>",
-      "<i class='fa fa-angle-right' aria-hidden='true'></i>"
-      ],*/
-
+      navigationText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']
  });
 		$(".menu-icon-holder").click(function(){
 			$(".header-nav-bar").slideToggle(300);
