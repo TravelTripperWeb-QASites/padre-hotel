@@ -3,7 +3,7 @@ main:
     url: #
     dropdown:
       - title: Rooms
-        url: /rooms/
+        url: /rooms-and-suites/
       - title: Specials
         url: /special-offers/
       - title: About us
@@ -15,7 +15,7 @@ main:
   - title: Dine
     url: #
     dropdown:
-      - title: Delvedere Room
+      - title: Belvedere Room
         url: /dine/belvedere-room/
       - title: BRIMSTONE
         url: /dine/brimstone/
