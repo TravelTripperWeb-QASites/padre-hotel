@@ -1,6 +1,6 @@
 {
   "title": "Mother's Day",
-  "description": "<p>This Mother's Day, treat mom to a champagne brunch at Belvedere Room in The Padre Hotel! This decadent buffet includes breakfast faves, seafood, carving station, delicious desserts plus each mom receives a special gift!</p>\n<p><a href=\"http://www.eatdrinkandsleep.net/EDS_Media/2018/Padre/Website/Padre_Easter_2018_MenuWEB.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">View the Menu &gt;&gt;</a></p>\n<p>$39/adult, $15/child</p>",
+  "description": "<p>This Mother's Day, treat mom to a champagne brunch at Belvedere Room in The Padre Hotel! This decadent buffet includes breakfast faves, seafood, carving station, delicious desserts plus each mom receives a special gift!</p>\n<p><a href=\"http://www.eatdrinkandsleep.net/EDS_Media/2018/Padre/Website/Padre_Easter_2018_MenuWEB.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">View the Menu &gt;&gt;</a></p>\n<p>Sunday, May 13th 10am-4pm<br /> $39/adult, $15/child</p>",
   "button_text": "<p>Reservations Strongly Recommended - 661.427.4900</p>",
   "sort_order": 2,
   "banner_image": {
@@ -23,7 +23,7 @@
     "alt": "Mother's Day",
     "caption": ""
   },
-  "unpublish": true,
+  "unpublish": false,
   "short_description": "<p>This Mother's Day, treat mom to a champagne brunch at Belvedere Room in The Padre Hotel!</p>",
   "view_event_button_url": "mothers-day"
 }
