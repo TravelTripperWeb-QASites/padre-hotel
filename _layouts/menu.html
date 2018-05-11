@@ -1,0 +1,194 @@
+---
+layout: default
+---
+<section class="global-container banner-onscroll content-top-margin">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 no-gutter specials-listing-banner banner-color-overlay">
+        <div class="social-icons">
+          <ul>
+            <li><a href="https://twitter.com/thepadrehotel" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://facebook.com/thepadrehotel" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li> <a href="https://instagram.com/thepadrehotel/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="title">Padre hotel</div>
+
+        <img src='/assets/images/dine/farmacy-cafe.jpg' class='img-width ' alt='Contact' />
+        <h1>MENUS</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="page-right-bg">
+  <section class="global-container">
+    <div class="container">
+      <div class="row location-container">
+        <div class="col-md-12 no-gutter ">
+          <div class="dine-menu container">
+            <div id="accordion" class="panel-group">
+              <div class="panel">
+
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                  <a href="#belvedere" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Belvedere Room</a>
+                  </h3>
+                </div>
+                <div id="belvedere" class="panel-collapse collapse ">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class=" col-md-8 col-md-push-3 no-gutter ">
+                        {% assign Belvedere = site.data._models.menu_items | sort: "order" | where: "menu_type","Belvedere" %} {% for belvedereitem in Belvedere %} {% unless loop_item_header == belvedereitem.category.name %} {% assign loop_item_header = belvedereitem.category.name
+                        %}
+                        <h3 class="item-name">{{belvedereitem.category.name}}</h3> {% endunless %}
+                        <h5>
+                          {{belvedereitem.title}} |
+                          {% for itemprice in belvedereitem.item_price %}
+                          {{itemprice.name}}  {{itemprice.price}}
+                          {% unless forloop.last %}:{% endunless %}
+                          {% endfor %}
+                        </h5> {{belvedereitem.detail}}
+                        <br> {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                <a href="#brimstone" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Brimstone</a>
+              </h3>
+                </div>
+                <div id="brimstone" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class=" col-md-8 col-md-push-3 no-gutter ">
+                        {% assign Brimstone = site.data._models.menu_items | sort: "order" | where: "menu_type","Brimstone" %} {% for brimstoneitem in Brimstone %} {% unless loop_item_header == brimstoneitem.category.name %} {% assign loop_item_header = brimstoneitem.category.name %}
+                        <h3 class="item-name">{{brimstoneitem.category.name}}</h3> {% endunless %}
+                        <h5>
+                          {{brimstoneitem.title}} |
+                          {% for itemprice in brimstoneitem.item_price %}
+                          {{itemprice.name}}  {{itemprice.price}}
+                          {% unless forloop.last %}:{% endunless %}
+                          {% endfor %}
+                        </h5> {{brimstoneitem.detail}}
+                        <br> {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a href="#prospect" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Prospect</a>
+                  </h3>
+                </div>
+                <div id="prospect" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class=" col-md-8 col-md-push-3 no-gutter ">
+                        {% assign Prospect = site.data._models.menu_items | sort: "order" | where: "menu_type","Prospect" %} {% for prospectitem in Prospect %} {% unless loop_item_header == prospectitem.category.name %} {% assign loop_item_header = prospectitem.category.name %}
+                        <h3 class="item-name">{{prospectitem.category.name}}</h3> {% endunless %}
+                        <h5>
+                          {{prospectitem.title}} |
+                          {% for itemprice in prospectitem.item_price %}
+                          {{itemprice.name}}  {{itemprice.price}}
+                          {% unless forloop.last %}:{% endunless %}
+                          {% endfor %}
+                        </h5> {{prospectitem.detail}}
+                        <br> {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a href="#prairie" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Prairie Fire</a>
+                  </h3>
+                </div>
+                <div id="prairie" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class=" col-md-8 col-md-push-3 no-gutter ">
+                        {% assign Prairie = site.data._models.menu_items | sort: "order" | where: "menu_type","Prairie Fire" %} {% for prairieitem in Prairie %} {% unless loop_item_header == prairieitem.category.name %} {% assign loop_item_header = prairieitem.category.name %}
+                        <h3 class="item-name">{{prairieitem.category.name}}</h3> {% endunless %}
+                        <h5>
+                          {{prairieitem.title}} |
+                          {% for itemprice in prairieitem.item_price %}
+                          {{itemprice.name}}  {{itemprice.price}}
+                          {% unless forloop.last %}:{% endunless %}
+                          {% endfor %}
+                        </h5> {{prairieitem.detail}}
+                        <br> {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a href="#farmacy" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Farmacy Cafe</a>
+                  </h3>
+                </div>
+                <div id="farmacy" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class=" col-md-8 col-md-push-3 no-gutter ">
+                        {% assign Farmacy = site.data._models.menu_items | sort: "order" | where: "menu_type","Farmacy Cafe" %} {% for farmacyitem in Farmacy %} {% unless loop_item_header == farmacyitem.category.name %} {% assign loop_item_header = farmacyitem.category.name %}
+                        <h3 class="item-name">{{farmacyitem.category.name}}</h3> {% endunless %}
+                        <h5>
+                          {{farmacyitem.title}} |
+                          {% for itemprice in farmacyitem.item_price %}
+                          {{itemprice.name}}  {{itemprice.price}}
+                          {% unless forloop.last %}:{% endunless %}
+                          {% endfor %}
+                        </h5> {{farmacyitem.detail}}
+                        <br> {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a href="#private" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Private Dining</a>
+                  </h3>
+                </div>
+                <div id="private" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class=" col-md-8 col-md-push-3 no-gutter ">
+                        {% assign private = site.data._models.menu_items | sort: "order" | where: "menu_type","Private Dining" %} {% for privateitem in private %} {% unless loop_item_header == privateitem.category.name %} {% assign loop_item_header = privateitem.category.name %}
+                        <h3 class="item-name">{{privateitem.category.name}}</h3> {% endunless %}
+                        <h5>
+                          {{privateitem.title}} |
+                          {% for itemprice in privateitem.item_price %}
+                          {{itemprice.name}}  {{itemprice.price}}
+                          {% unless forloop.last %}:{% endunless %}
+                          {% endfor %}
+                        </h5> {{privateitem.detail}}
+                        <br> {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  </div>
+
+  {% comment %}
+  <section class="global-container">
+    <div class="container">
+      <div class="row contact-three-images">
+        {% region contact-three-images %}
+      </div>
+  </section>
+  {% endcomment %}
