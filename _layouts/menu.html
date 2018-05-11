@@ -39,7 +39,7 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Belvedere = site.data._models.menu_items | sort: "order" | where: "menu_type","Belvedere" %} {% for belvedereitem in Belvedere %} {% unless loop_item_header == belvedereitem.category.name %} {% assign loop_item_header = belvedereitem.category.name
+                        {% assign Belvedere = site.data._models.menu_items | sort: "order" | where: "menu_type","Belvedere Room" %} {% for belvedereitem in Belvedere %} {% unless loop_item_header == belvedereitem.category.name %} {% assign loop_item_header = belvedereitem.category.name
                         %}
                         <h3 class="item-name">{{belvedereitem.category.name}}</h3> {% endunless %}
                         <h5>
