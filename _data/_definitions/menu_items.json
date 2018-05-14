@@ -5,7 +5,7 @@
   },
   "menu_type":{
     "type": "select",
-    "options":["Belvedere Room","Brimstone","Prospect","Prairie Fire","Farmacy Cafe","Private Dining"],
+    "options":["Belvedere Room","All Day Menu","Brunch","Prairie Fire","Breakfast","Barista"],
     "required":true
   },
   "category": {

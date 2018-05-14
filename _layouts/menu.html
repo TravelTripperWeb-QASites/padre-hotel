@@ -57,22 +57,22 @@ layout: default
 
                 <div class="panel-heading">
                   <h3 class="panel-title">
-                <a href="#brimstone" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Brimstone</a>
+                <a href="#allday" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">ALL DAY MENU</a>
               </h3>
                 </div>
-                <div id="brimstone" class="panel-collapse collapse">
+                <div id="allday" class="panel-collapse collapse">
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Brimstone = site.data._models.menu_items | sort: "order" | where: "menu_type","Brimstone" %} {% for brimstoneitem in Brimstone %} {% unless loop_item_header == brimstoneitem.category.name %} {% assign loop_item_header = brimstoneitem.category.name %}
-                        <h3 class="item-name">{{brimstoneitem.category.name}}</h3> {% endunless %}
+                        {% assign Alldaymenu = site.data._models.menu_items | sort: "order" | where: "menu_type","All Day Menu" %} {% for alldayitem in Alldaymenu %} {% unless loop_item_header == alldayitem.category.name %} {% assign loop_item_header = alldayitem.category.name %}
+                        <h3 class="item-name">{{alldayitem.category.name}}</h3> {% endunless %}
                         <h5>
-                          {{brimstoneitem.title}} |
-                          {% for itemprice in brimstoneitem.item_price %}
+                          {{alldayitem.title}} |
+                          {% for itemprice in alldayitem.item_price %}
                           {{itemprice.name}}  {{itemprice.price}}
                           {% unless forloop.last %}:{% endunless %}
                           {% endfor %}
-                        </h5> {{brimstoneitem.detail}}
+                        </h5> {{alldayitem.detail}}
                         <br> {% endfor %}
                       </div>
                     </div>
@@ -81,22 +81,22 @@ layout: default
 
                 <div class="panel-heading">
                   <h3 class="panel-title">
-                    <a href="#prospect" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Prospect</a>
+                    <a href="#brunch" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">BRUNCH</a>
                   </h3>
                 </div>
-                <div id="prospect" class="panel-collapse collapse">
+                <div id="brunch" class="panel-collapse collapse">
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Prospect = site.data._models.menu_items | sort: "order" | where: "menu_type","Prospect" %} {% for prospectitem in Prospect %} {% unless loop_item_header == prospectitem.category.name %} {% assign loop_item_header = prospectitem.category.name %}
-                        <h3 class="item-name">{{prospectitem.category.name}}</h3> {% endunless %}
+                        {% assign Brunch = site.data._models.menu_items | sort: "order" | where: "menu_type","Brunch" %} {% for brunchitem in Brunch %} {% unless loop_item_header == brunchitem.category.name %} {% assign loop_item_header = brunchitem.category.name %}
+                        <h3 class="item-name">{{brunchitem.category.name}}</h3> {% endunless %}
                         <h5>
-                          {{prospectitem.title}} |
-                          {% for itemprice in prospectitem.item_price %}
+                          {{brunchitem.title}} |
+                          {% for itemprice in brunchitem.item_price %}
                           {{itemprice.name}}  {{itemprice.price}}
                           {% unless forloop.last %}:{% endunless %}
                           {% endfor %}
-                        </h5> {{prospectitem.detail}}
+                        </h5> {{brunchitem.detail}}
                         <br> {% endfor %}
                       </div>
                     </div>
@@ -129,22 +129,22 @@ layout: default
 
                 <div class="panel-heading">
                   <h3 class="panel-title">
-                    <a href="#farmacy" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Farmacy Cafe</a>
+                    <a href="#breakfast" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Breakfast</a>
                   </h3>
                 </div>
-                <div id="farmacy" class="panel-collapse collapse">
+                <div id="breakfast" class="panel-collapse collapse">
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Farmacy = site.data._models.menu_items | sort: "order" | where: "menu_type","Farmacy Cafe" %} {% for farmacyitem in Farmacy %} {% unless loop_item_header == farmacyitem.category.name %} {% assign loop_item_header = farmacyitem.category.name %}
-                        <h3 class="item-name">{{farmacyitem.category.name}}</h3> {% endunless %}
+                        {% assign Breakfast = site.data._models.menu_items | sort: "order" | where: "menu_type","Breakfast" %} {% for breakfastitem in Breakfast %} {% unless loop_item_header == breakfastitem.category.name %} {% assign loop_item_header = breakfastitem.category.name %}
+                        <h3 class="item-name">{{breakfastitem.category.name}}</h3> {% endunless %}
                         <h5>
-                          {{farmacyitem.title}} |
-                          {% for itemprice in farmacyitem.item_price %}
+                          {{breakfastitem.title}} |
+                          {% for itemprice in breakfastitem.item_price %}
                           {{itemprice.name}}  {{itemprice.price}}
                           {% unless forloop.last %}:{% endunless %}
                           {% endfor %}
-                        </h5> {{farmacyitem.detail}}
+                        </h5> {{breakfastitem.detail}}
                         <br> {% endfor %}
                       </div>
                     </div>
@@ -154,22 +154,22 @@ layout: default
 
                 <div class="panel-heading">
                   <h3 class="panel-title">
-                    <a href="#private" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Private Dining</a>
+                    <a href="#barista" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Barista</a>
                   </h3>
                 </div>
-                <div id="private" class="panel-collapse collapse">
+                <div id="barista" class="panel-collapse collapse">
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign private = site.data._models.menu_items | sort: "order" | where: "menu_type","Private Dining" %} {% for privateitem in private %} {% unless loop_item_header == privateitem.category.name %} {% assign loop_item_header = privateitem.category.name %}
-                        <h3 class="item-name">{{privateitem.category.name}}</h3> {% endunless %}
+                        {% assign Barista = site.data._models.menu_items | sort: "order" | where: "menu_type","Barista" %} {% for baristaitem in Barista %} {% unless loop_item_header == baristaitem.category.name %} {% assign loop_item_header = baristaitem.category.name %}
+                        <h3 class="item-name">{{baristaitem.category.name}}</h3> {% endunless %}
                         <h5>
-                          {{privateitem.title}} |
-                          {% for itemprice in privateitem.item_price %}
+                          {{baristaitem.title}} |
+                          {% for itemprice in baristaitem.item_price %}
                           {{itemprice.name}}  {{itemprice.price}}
                           {% unless forloop.last %}:{% endunless %}
                           {% endfor %}
-                        </h5> {{privateitem.detail}}
+                        </h5> {{baristaitem.detail}}
                         <br> {% endfor %}
                       </div>
                     </div>
