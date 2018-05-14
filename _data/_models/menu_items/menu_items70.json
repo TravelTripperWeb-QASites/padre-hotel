@@ -1,0 +1,16 @@
+{
+  "order": 37,
+  "menu_type": "Breakfast",
+  "category": "menu_category12",
+  "item_price": [
+    {
+      "name": "16oz",
+      "price": "3"
+    },
+    {
+      "name": "20oz",
+      "price": "4"
+    }
+  ],
+  "title": "Tea"
+}
