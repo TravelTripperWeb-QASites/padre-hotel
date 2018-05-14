@@ -1,0 +1,11 @@
+{
+  "order": 44,
+  "menu_type": "Breakfast",
+  "category": "menu_category14",
+  "title": "Vanilla, SF Vanilla, Hazelnut, SF Hazelnut, Toffee Nut, Irish Cream, Caramel, Caramel Sauce, White Mocha, Peppermint, Strawberry",
+  "item_price": [
+    {
+      "price": ".50"
+    }
+  ]
+}
