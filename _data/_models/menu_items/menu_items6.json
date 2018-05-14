@@ -1,12 +1,12 @@
 {
-  "order": 2,
-  "title": "ARUGULA BACON SALAD",
+  "order": 6,
+  "title": "PRIME BEEF TARTARE",
   "menu_type": "Belvedere Room",
-  "category": "menu_category1",
+  "category": "menu_category3",
   "item_price": [
     {
-      "price": "11"
+      "price": "18"
     }
   ],
-  "detail": "<p>Wild Arugula, Avocado, Heirloom Tomato, Bacon, Stella Blue Cheese, Rye Croutons, Applewood Bacon Vinaigrette</p>"
+  "detail": "<p>Truffle, Shallot, Capers, Lemon Zest, Farm Yolk, Grilled Toast</p>"
 }
