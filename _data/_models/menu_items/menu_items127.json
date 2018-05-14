@@ -1,0 +1,12 @@
+{
+  "order": 30,
+  "title": "THE INSPIRED CHEF",
+  "menu_type": "All Day Menu",
+  "category": "menu_category26",
+  "item_price": [
+    {
+      "price": "4"
+    }
+  ],
+  "detail": "<p>please ask server for today's inspiration</p>"
+}
