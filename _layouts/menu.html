@@ -39,7 +39,7 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Belvedere = site.data._models.menu_items | sort: "order" | where: "menu_type","Belvedere Room" %} {% for belvedereitem in Belvedere %} {% unless loop_item_header == belvedereitem.category.name %} {% assign loop_item_header = belvedereitem.category.name
+                        {% assign Belvedere = site.data._models.menu_belvedere | sort: "order" %} {% for belvedereitem in Belvedere %} {% unless loop_item_header == belvedereitem.category.name %} {% assign loop_item_header = belvedereitem.category.name
                         %}
                         <h3 class="item-name">{{belvedereitem.category.name}}</h3> {% endunless %}
                         <h5>
@@ -64,7 +64,7 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Alldaymenu = site.data._models.menu_items | sort: "order" | where: "menu_type","All Day Menu" %} {% for alldayitem in Alldaymenu %} {% unless loop_item_header == alldayitem.category.name %} {% assign loop_item_header = alldayitem.category.name %}
+                        {% assign Alldaymenu = site.data._models.menu_brimstone_allday | sort: "order" %} {% for alldayitem in Alldaymenu %} {% unless loop_item_header == alldayitem.category.name %} {% assign loop_item_header = alldayitem.category.name %}
                         <h3 class="item-name">{{alldayitem.category.name}}</h3> {% endunless %}
                         <h5>
                           {{alldayitem.title}} |
@@ -88,7 +88,7 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Brunch = site.data._models.menu_items | sort: "order" | where: "menu_type","Brunch" %} {% for brunchitem in Brunch %} {% unless loop_item_header == brunchitem.category.name %} {% assign loop_item_header = brunchitem.category.name %}
+                        {% assign Brunch = site.data._models.menu_brunch | sort: "order" %} {% for brunchitem in Brunch %} {% unless loop_item_header == brunchitem.category.name %} {% assign loop_item_header = brunchitem.category.name %}
                         <h3 class="item-name">{{brunchitem.category.name}}</h3> {% endunless %}
                         <h5>
                           {{brunchitem.title}} |
@@ -112,7 +112,7 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Prairie = site.data._models.menu_items | sort: "order" | where: "menu_type","Prairie Fire" %} {% for prairieitem in Prairie %} {% unless loop_item_header == prairieitem.category.name %} {% assign loop_item_header = prairieitem.category.name %}
+                        {% assign Prairie = site.data._models.menu_prairie_fire| sort: "order" %} {% for prairieitem in Prairie %} {% unless loop_item_header == prairieitem.category.name %} {% assign loop_item_header = prairieitem.category.name %}
                         <h3 class="item-name">{{prairieitem.category.name}}</h3> {% endunless %}
                         <h5>
                           {{prairieitem.title}} |
@@ -136,7 +136,7 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Breakfast = site.data._models.menu_items | sort: "order" | where: "menu_type","Breakfast" %} {% for breakfastitem in Breakfast %} {% unless loop_item_header == breakfastitem.category.name %} {% assign loop_item_header = breakfastitem.category.name %}
+                        {% assign Breakfast = site.data._models.menu_farmacy_breakfast | sort: "order" %} {% for breakfastitem in Breakfast %} {% unless loop_item_header == breakfastitem.category.name %} {% assign loop_item_header = breakfastitem.category.name %}
                         <h3 class="item-name">{{breakfastitem.category.name}}</h3> {% endunless %}
                         <h5>
                           {{breakfastitem.title}} |
@@ -161,7 +161,7 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign Barista = site.data._models.menu_items | sort: "order" | where: "menu_type","Barista" %} {% for baristaitem in Barista %} {% unless loop_item_header == baristaitem.category.name %} {% assign loop_item_header = baristaitem.category.name %}
+                        {% assign Barista = site.data._models.menu_barista | sort: "order" %} {% for baristaitem in Barista %} {% unless loop_item_header == baristaitem.category.name %} {% assign loop_item_header = baristaitem.category.name %}
                         <h3 class="item-name">{{baristaitem.category.name}}</h3> {% endunless %}
                         <h5>
                           {{baristaitem.title}} |
