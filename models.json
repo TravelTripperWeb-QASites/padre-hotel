@@ -132,10 +132,73 @@
     }
   ],
   "menu_brunch": [
-
+    {
+      "name": "TRADITIONAL BEGINNINGS",
+      "title": "TRADITIONAL BEGINNINGS",
+      "file": "menu_brunch2.json"
+    },
+    {
+      "name": "FROM THE BAKERY",
+      "title": "FROM THE BAKERY",
+      "file": "menu_brunch1.json"
+    },
+    {
+      "name": "BRUNCHY CAKES",
+      "title": "BRUNCHY CAKES",
+      "file": "menu_brunch4.json"
+    },
+    {
+      "name": "CHEF INSPIRED BEGINNINGS",
+      "title": "CHEF INSPIRED BEGINNINGS",
+      "file": "menu_brunch3.json"
+    }
   ],
   "menu_farmacy_breakfast": [
-
+    {
+      "name": "ICED",
+      "title": "ICED",
+      "file": "menu_farmacy_breakfast7.json"
+    },
+    {
+      "name": "GRIDDLE UP",
+      "title": "GRIDDLE UP",
+      "file": "menu_farmacy_breakfast4.json"
+    },
+    {
+      "name": "ESPRESSO",
+      "title": "ESPRESSO",
+      "file": "menu_farmacy_breakfast6.json"
+    },
+    {
+      "name": "THE PADRE WAY",
+      "title": "THE PADRE WAY",
+      "file": "menu_farmacy_breakfast2.json"
+    },
+    {
+      "name": "SPIKED",
+      "title": "SPIKED",
+      "file": "menu_farmacy_breakfast8.json"
+    },
+    {
+      "name": "SYRUPS",
+      "title": "SYRUPS",
+      "file": "menu_farmacy_breakfast9.json"
+    },
+    {
+      "name": "BREAKFAST SCRAMBLES",
+      "title": "BREAKFAST SCRAMBLES",
+      "file": "menu_farmacy_breakfast3.json"
+    },
+    {
+      "name": "BEVERAGES",
+      "title": "BEVERAGES",
+      "file": "menu_farmacy_breakfast5.json"
+    },
+    {
+      "name": "GOOD MORNING",
+      "title": "GOOD MORNING",
+      "file": "menu_farmacy_breakfast1.json"
+    }
   ],
   "gallery-rooms": [
     {
@@ -338,7 +401,16 @@
     }
   ],
   "menu_prairie_fire": [
-
+    {
+      "name": "BEER BUCKETS",
+      "title": "BEER BUCKETS",
+      "file": "menu_prairie_fire2.json"
+    },
+    {
+      "name": "COCKTAIL CARAFES",
+      "title": "COCKTAIL CARAFES",
+      "file": "menu_prairie_fire1.json"
+    }
   ],
   "gallery-events": [
     {
@@ -399,12 +471,109 @@
     }
   ],
   "menu_belvedere": [
-
+    {
+      "name": "ENTRÉES | SKY",
+      "title": "ENTRÉES | SKY",
+      "file": "menu_belvedere12.json"
+    },
+    {
+      "name": "STARTERS | SKY",
+      "title": "STARTERS | SKY",
+      "file": "menu_belvedere5.json"
+    },
+    {
+      "name": "BUTTERS",
+      "title": "BUTTERS",
+      "file": "menu_belvedere7.json"
+    },
+    {
+      "name": "STARTERS | GARDEN",
+      "title": "STARTERS | GARDEN",
+      "file": "menu_belvedere2.json"
+    },
+    {
+      "name": "ENTRÉES | LAND",
+      "title": "ENTRÉES | LAND",
+      "file": "menu_belvedere10.json"
+    },
+    {
+      "name": "SAUCES",
+      "title": "SAUCES",
+      "file": "menu_belvedere9.json"
+    },
+    {
+      "name": "STARTERS | SEA",
+      "title": "STARTERS | SEA",
+      "file": "menu_belvedere4.json"
+    },
+    {
+      "name": "ENTRÉES | SEA",
+      "title": "ENTRÉES | SEA",
+      "file": "menu_belvedere11.json"
+    },
+    {
+      "name": "THE BELVEDERE ROOM USES HAND CUT ANGUS PRIME BEEF",
+      "title": "THE BELVEDERE ROOM USES HAND CUT ANGUS PRIME BEEF",
+      "file": "menu_belvedere6.json"
+    },
+    {
+      "name": "ADD - ONS",
+      "title": "ADD - ONS",
+      "file": "menu_belvedere8.json"
+    },
+    {
+      "name": "STARTERS | LAND",
+      "title": "STARTERS | LAND",
+      "file": "menu_belvedere3.json"
+    },
+    {
+      "name": "STARTERS | GREENS",
+      "title": "STARTERS | GREENS",
+      "file": "menu_belvedere1.json"
+    }
   ],
   "menu_barista": [
-
+    {
+      "name": "GOOD MORNING",
+      "title": "GOOD MORNING",
+      "file": "menu_barista1.json"
+    }
   ],
   "menu_brimstone_allday": [
-
+    {
+      "name": "SHOOTERS",
+      "title": "SHOOTERS",
+      "file": "menu_brimstone_allday6.json"
+    },
+    {
+      "name": "FIRE OVEN PIZZAS",
+      "title": "FIRE OVEN PIZZAS",
+      "file": "menu_brimstone_allday3.json"
+    },
+    {
+      "name": "HAND HELDS",
+      "title": "HAND HELDS",
+      "file": "menu_brimstone_allday4.json"
+    },
+    {
+      "name": "GREENS",
+      "title": "GREENS",
+      "file": "menu_brimstone_allday1.json"
+    },
+    {
+      "name": "DESSERTS",
+      "title": "DESSERTS",
+      "file": "menu_brimstone_allday5.json"
+    },
+    {
+      "name": "SMALL BITES",
+      "title": "SMALL BITES",
+      "file": "menu_brimstone_allday7.json"
+    },
+    {
+      "name": "BURGERS",
+      "title": "BURGERS",
+      "file": "menu_brimstone_allday2.json"
+    }
   ]
 }
