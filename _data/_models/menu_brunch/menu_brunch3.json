@@ -11,6 +11,18 @@
     {
       "name": "CHICKEN FRIED STEAK | 15",
       "detail": "<p>Chicken Fried Angus Flat Iron Steak, 2 Eggs, Sausage Country Gravy, Hash Browns</p>"
+    },
+    {
+      "name": "WHITE CHEDDAR BISCUITS & GRAVY | 12",
+      "detail": "<p>2 Eggs, 2 White Cheddar Biscuits, Sausage Country Gravy, Chives, Hash Browns</p>"
+    },
+    {
+      "name": "CHILAQUILES ROJO | GF 12",
+      "detail": "<p>2 Sunny Side Up Eggs, Fresh Tortilla Chips, White Cheddar, Sour Cream, Pico de Gallo, Cotija, Cilantro, Rojo Sauce</p>"
+    },
+    {
+      "name": "CREME BRÛLÉE FRENCH TOAST | 10",
+      "detail": "<p>Creme Br&ucirc;l&eacute;e Battered Texas Toast, Fresh Seasonal Berries, Maple Syrup, Whipped Butter</p>"
     }
   ],
   "title": "CHEF INSPIRED BEGINNINGS",
