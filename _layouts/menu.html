@@ -65,7 +65,7 @@ layout: default
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
 
-                        {% assign alldaymenu = site.data._models.menu_brimstone_allday | sort: "sort_order" %}
+                        {% assign alldaymenu = site.data._models.menu_brimstone_allday  %}
                           {% for item in alldaymenu %}
                           {% if item.title != "others" %}
                           <h3 class="item-name">{{item.title}}</h3>
@@ -90,7 +90,7 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                         {% assign brunch = site.data._models.menu_brunch | sort: "sort_order" %}
+                         {% assign brunch = site.data._models.menu_brunch  %}
                           {% for item in brunch %}
                           {% if item.title != "others" %}
                           <h3 class="item-name">{{item.title}}</h3>
@@ -115,7 +115,7 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign prairie = site.data._models.menu_prairie_fire | sort: "sort_order" %}
+                        {% assign prairie = site.data._models.menu_prairie_fire  %}
                          {% for item in prairie %}
                          {% if item.title != "others" %}
                          <h3 class="item-name">{{item.title}}</h3>
@@ -140,7 +140,7 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign farmacy = site.data._models.menu_farmacy_breakfast | sort: "sort_order" %}
+                        {% assign farmacy = site.data._models.menu_farmacy_breakfast %}
                          {% for item in farmacy %}
                          {% if item.title != "others" %}
                          <h3 class="item-name">{{item.title}}</h3>
@@ -166,7 +166,7 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign barista = site.data._models.menu_barista | sort: "sort_order" %}
+                        {% assign barista = site.data._models.menu_barista %}
                          {% for item in barista %}
                          {% if item.title != "others" %}
                          <h3 class="item-name">{{item.title}}</h3>
