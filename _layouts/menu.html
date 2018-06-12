@@ -38,7 +38,7 @@ layout: default
                   <div class="panel-body">
                     <div class="row">
                       <div class=" col-md-8 col-md-push-3 no-gutter ">
-                        {% assign belvedere = site.data._models.menu_belvedere | sort: "sort_order" %}
+                        {% assign belvedere = site.data._models.menu_belvedere %}
                           {% for item in belvedere %}
                           {% if item.title != "others" %}
                           <h3 class="item-name">{{item.title}}</h3>
