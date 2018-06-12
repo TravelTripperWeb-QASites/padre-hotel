@@ -1,0 +1,18 @@
+{
+  "menu_items": [
+    {
+      "name": "SIGNATURE LOBSTER BISQUE | 14",
+      "detail": "<p>Butter Poached Maine Lobster, Sherry Cr&egrave;me, House Baked Lavash</p>"
+    },
+    {
+      "name": "JUMBO LUMP CRAB CAKE | 26",
+      "detail": "<p>Remoulade, Petite Fris&eacute;e Salad</p>"
+    },
+    {
+      "name": "SPICY MANILA CLAMS | 16",
+      "detail": "<p>Spicy Tomato Fennel Broth, Chorizo, Herbs, Grilled Toast</p>"
+    }
+  ],
+  "title": "STARTERS | SEA",
+  "sort_order": 4
+}
