@@ -1,0 +1,18 @@
+{
+  "menu_items": [
+    {
+      "name": "PRIME BEEF TARTARE | 18",
+      "detail": "<p>Truffle, Shallot, Capers, Lemon Zest, Farm Yolk, Grilled Toast</p>"
+    },
+    {
+      "name": "CRISPY LAMB BELLY | 16",
+      "detail": "<p>Orange Apricot Glaze, Grilled Apricot, Goat Cheese, Toasted Pistachio</p>"
+    },
+    {
+      "name": "CHEESE & CHARCUTERIE BOARD | 20",
+      "detail": "<p>Chef&rsquo;s Selection of Artisan Cheeses and Cured Meats, House Jams, Fruit, Nuts, Grilled Toast</p>"
+    }
+  ],
+  "title": "STARTERS | LAND",
+  "sort_order": 3
+}
