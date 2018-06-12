@@ -1,0 +1,18 @@
+{
+  "menu_items": [
+    {
+      "name": "COFFEE | 16OZ 3 : 20OZ 4"
+    },
+    {
+      "name": "DECAF | 16OZ 3 : 20OZ 4"
+    },
+    {
+      "name": "HOT CHOCOLATE | 16OZ 3 : 20OZ 4"
+    },
+    {
+      "name": "HOT TEA | 20OZ 4"
+    }
+  ],
+  "title": "BEVERAGES",
+  "sort_order": 5
+}
