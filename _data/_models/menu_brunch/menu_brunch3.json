@@ -1,0 +1,18 @@
+{
+  "menu_items": [
+    {
+      "name": "BREAKFAST “CORN DOGS” | 11",
+      "detail": "<p>4 Breakfast Sausage Links Dipped In Pancake Batter, 2 Eggs, Hash Browns, Maple Syrup, Powdered Sugar</p>"
+    },
+    {
+      "name": "BRIMSTONE CHICKEN N’ WAFFLES | 14",
+      "detail": "<p>Crispy Buttermilk Fried Chicken, Belgian Waffle, Sausage Country Gravy, Frank&rsquo;s Red Hot Maple Syrup, Whipped Butter</p>"
+    },
+    {
+      "name": "CHICKEN FRIED STEAK | 15",
+      "detail": "<p>Chicken Fried Angus Flat Iron Steak, 2 Eggs, Sausage Country Gravy, Hash Browns</p>"
+    }
+  ],
+  "title": "CHEF INSPIRED BEGINNINGS",
+  "sort_order": 3
+}
