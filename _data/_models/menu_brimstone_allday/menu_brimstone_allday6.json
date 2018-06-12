@@ -1,0 +1,26 @@
+{
+  "menu_items": [
+    {
+      "name": "STRAWBERRIES & CREAM SHOOTER | 4",
+      "detail": "<p>strawberries, strawberry mousse, vanilla lace cookie</p>"
+    },
+    {
+      "name": "BUTTERSCOTCH SHOOTER | 4",
+      "detail": "<p>butterscotch pudding, toasted marshmallow fluff, fresh made toffee</p>"
+    },
+    {
+      "name": "CHOCOLATE LOVER SHOOTER | 4",
+      "detail": "<p>fresh baked chocolate cake, belgian dark chocolate mousse, raspberry coulis</p>"
+    },
+    {
+      "name": "VANILLA BOURBON SHOOTER | 4",
+      "detail": "<p>layered vanilla bourbon cake, chantilly cream, bourbon sauce</p>"
+    },
+    {
+      "name": "THE INSPIRED CHEF | 4",
+      "detail": "<p>please ask server for today's inspiration</p>"
+    }
+  ],
+  "title": "SHOOTERS",
+  "sort_order": 6
+}
