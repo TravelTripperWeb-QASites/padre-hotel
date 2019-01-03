@@ -1,0 +1,47 @@
+{
+  "name": "Test",
+  "photos": [
+    {
+      "name": "Padre_Christmas_937x400",
+      "file_name": "Padre_Christmas_937x400.jpg",
+      "url": "//cdn.traveltripper.io/site-assets/408_410_19712/media/2018-10-10-170421/Padre_Christmas_937x400.jpg",
+      "tags": "",
+      "description": "",
+      "date_added": "2018-10-10-170421",
+      "file_type": "image/jpeg",
+      "width": 937,
+      "height": 400,
+      "file_size": 49696,
+      "url_large": "//cdn.traveltripper.io/site-assets/408_410_19712/media/2018-10-10-170421/large_Padre_Christmas_937x400.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/408_410_19712/media/2018-10-10-170421/medium_Padre_Christmas_937x400.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/408_410_19712/media/2018-10-10-170421/small_Padre_Christmas_937x400.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/408_410_19712/media/2018-10-10-170421/xsmall_Padre_Christmas_937x400.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/408_410_19712/media/2018-10-10-170421/thumb_Padre_Christmas_937x400.jpg",
+      "git_file_name": "_assets/image_data/Padre-Christmas-937x400.json",
+      "path": "//cdn.traveltripper.io/site-assets/408_410_19712/media/2018-10-10-170421/Padre_Christmas_937x400.jpg",
+      "alt": "Padre_Christmas_937x400"
+    },
+    {
+      "name": "PH_NYE_937x400",
+      "file_name": "PH_NYE_937x400.jpg",
+      "url": "//cdn.traveltripper.io/site-assets/408_410_20198/media/2018-10-22-133506/PH_NYE_937x400.jpg",
+      "tags": "",
+      "description": "",
+      "date_added": "2018-10-22-133506",
+      "file_type": "image/jpeg",
+      "width": 937,
+      "height": 400,
+      "file_size": 206882,
+      "url_large": "//cdn.traveltripper.io/site-assets/408_410_20198/media/2018-10-22-133506/large_PH_NYE_937x400.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/408_410_20198/media/2018-10-22-133506/medium_PH_NYE_937x400.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/408_410_20198/media/2018-10-22-133506/small_PH_NYE_937x400.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/408_410_20198/media/2018-10-22-133506/xsmall_PH_NYE_937x400.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/408_410_20198/media/2018-10-22-133506/thumb_PH_NYE_937x400.jpg",
+      "git_file_name": "_assets/image_data/PH-NYE-937x400.json",
+      "path": "//cdn.traveltripper.io/site-assets/408_410_20198/media/2018-10-22-133506/PH_NYE_937x400.jpg",
+      "alt": "PH_NYE_937x400"
+    }
+  ],
+  "description": "",
+  "id": "test"
+}
