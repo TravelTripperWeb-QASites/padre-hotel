@@ -1,1 +1,7 @@
-[{"_template":"html","content":"A unique stay <br/> at Padre Hotel","rendered_height":500}]
+[
+  {
+    "_template": "html",
+    "content": "<p>A unique stay <br /> at the Padre Hotel</p>",
+    "rendered_height": 500
+  }
+]
